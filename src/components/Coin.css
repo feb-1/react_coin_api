@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.App-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  width: 1000px;
+  border-bottom: 1px solid black;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  min-width: 300px;
+}
+.coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.coin h1 {
+  font-size: 18px;
+  width: 160px;
+}
+.coin-symbol {
+  text-transform: uppercase;
+}
+
+.coin-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.price {
+  width: 100px;
+}
+.volume{
+    width: 100px;
+}
